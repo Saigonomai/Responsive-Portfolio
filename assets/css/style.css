@@ -1,0 +1,176 @@
+body {
+    background-color: #edeeef;
+}  
+.header{
+    float: left;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+.nametag {
+    margin-left: 20%;
+    margin-top: 0px;
+    float: left;
+    width: 15%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: cadetblue;
+}
+.navbar{
+    float: right;
+    margin-right: 20%;
+}
+.navbutton {
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 90px;
+    font-size: 15pt;
+}
+.break{
+    float: left;
+    width: 1px;
+    height: 30px;
+    margin-top: 10px;
+    border-left: 1px solid black;
+}
+#selected{
+    background-color: lightgrey;
+    color: white;
+}
+.clearfix::after {
+    height: 20px;
+    content: "";
+    display: block;
+    clear: both;
+}
+.line{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    height: 1px;
+    border-top: 1px solid black;
+    }
+.textbox{
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%; 
+    width: 60%;
+    overflow: auto;
+}
+.title{
+    color: cadetblue;
+    line-height: 60px;
+    margin-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20pt;
+}
+.portrait{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    margin-top: 17px;
+}
+.about{
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 17pt;
+    font-size: 12pt;
+}
+.contactform{
+    margin: 15px;
+}
+.entryline{
+    width: 97%;
+}
+.entryfield{
+    width: 97%;
+}
+.submitbtn{
+    background-color: cadetblue;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 17pt;
+}
+.project{
+    position: relative;
+    width: 29%;
+    height: 250px;
+    margin: 2%;
+    float: left;
+    border: 1px solid black;
+}
+.imgbox{
+    width:100%;
+    height:100%;
+}
+.label{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: cadetblue;
+    color: white;
+}
+
+@media only screen and (max-width:980px) {
+    .nametag {
+        margin-left: 5%;
+        margin-top: 0px;
+        width: 30%;
+    }
+
+    .navbar{
+        float: right;
+        margin-right: 5%;
+    }
+    .textbox{
+        margin-left: 5%;
+        margin-right: 35%; 
+        width: 60%;
+    }
+    .project{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .textbox{
+        margin-right: 5%;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .nametag {
+        margin-left: 0;
+        width: 100%;
+    }
+    .navbar{
+        float: left;
+        margin-right: 0;
+        background-color: white;
+        padding-left: 25%;
+        width: 50%; 
+    }
+
+    .header{
+        height: auto;
+    }
+
+    .project{
+        width: 90%;
+        height: auto;
+    }
+
+}
